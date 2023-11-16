@@ -7,7 +7,7 @@ BOOTLOADER = atmel-dfu
 # Build Options
 #   change yes to no to disable
 #
-LTO_ENABLE = yes  #NYD
+LTO_ENABLE = yes 
 BOOTMAGIC_ENABLE = lite      # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = no	# Mouse keys
 EXTRAKEY_ENABLE = no	# Audio control and System control
@@ -17,10 +17,9 @@ NKRO_ENABLE = no           # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no  # Enable keyboard backlight functionality
 AUDIO_ENABLE = no
 RGBLIGHT_ENABLE = no
-ENCODER_ENABLE = yes
-ENCODER_MAP_ENABLE = yes
-MOUSEKEY_ENABLE = no
-EXTRAKEY_ENABLE = no
 SPACE_CADET_ENABLE = no
 GRAVE_ESC_ENABLE = no 
 MAGIC_ENABLE = no
+MUSIC_ENABLE = no
+ENCODER_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
